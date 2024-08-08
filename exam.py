@@ -17,4 +17,4 @@ while True:
     elif chioce == '5':
         break 
     else:
-        print('Invalid iput try again')
+        print('Invalid iput try again.')
