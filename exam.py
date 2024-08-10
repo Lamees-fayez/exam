@@ -16,13 +16,14 @@ chioce= input()
 for i in main_program:
     if chioce == '1':
         print(a) ,
-        employee_data= (input('Enter the name:') ,
-              input('Enter the age:'),
-             input('Enter the salary:'))
-        print(main_program)    
+        employee_data= {'name'==(input('Enter the name:'),
+                        'age'== input('Enter the age:'),
+                        'salary'== input('Enter the salary:'))}
+        print(main_program)
+        continue    
     elif chioce == '2':
          print(b)
-         print(employee_data)
+         print(name , age , salary)
     elif chioce == '3':
          print(c)
     elif chioce =='4':
